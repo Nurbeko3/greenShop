@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.search-input {
+    background-image: url("../public/search-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 11px center;
+}
+
+.ant-slider-track {
+    background-color: #46A358 !important;
+}
+
+.ant-slider-handle::before,
+.ant-slider-handle::after {
+    background-color: #46A358 !important;
+    border-radius: 50%;
+    border-color: #46A358 !important;
+    box-shadow: none;
+}
+
+.ant-tabs-tab {
+    padding: 0 !important;
+    padding-bottom: 12px !important;
+}
+
+.ant-tabs-nav {
+    margin-bottom: 0 !important;
+}
+
+.ant-tabs-nav::before {
+    border-bottom: 0 !important;
+}
+
+.ant-tabs-tab-btn {
+    color: #46A358 !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.ant-pagination-item-active {
+    background-color: #46A358 !important;
+    border-color: #46A358 !important;
+}
+
+.ant-pagination-item-active>a {
+    color: white !important;
+}
+
+.ant-pagination-item {
+    border: 1px solid #e5e5e5 !important;
+}
+
+.product-img-wrapper:hover>.product-list-icons {
+    bottom: 0;
+}
+
+.ant-btn-primary, .ant-btn-default{
+   width: 0px !important;
+   scale: 0 !important;
+}
+.ant-modal-footer{
+   margin: 0px 0px 0px !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
